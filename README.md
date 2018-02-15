@@ -1,2 +1,0 @@
-# D-POP
-Departmental App
