@@ -25,12 +25,12 @@ public class NoticeDivision extends AppCompatActivity {
         instantiateView();
 
         mNoticeTypeModels = new ArrayList<>();
-        mNoticeTypeModels.add(new NoticeTypeModel(Department_Notice));
-        mNoticeTypeModels.add(new NoticeTypeModel(R.string.Assignment_notice));
-        mNoticeTypeModels.add(new NoticeTypeModel(R.string.Exam_notice));
-        mNoticeTypeModels.add(new NoticeTypeModel(R.string.Fest_notice));
+        mNoticeTypeModels.add(new NoticeTypeModel(R.string.Department_Notice));
         mNoticeTypeModels.add(new NoticeTypeModel(R.string.hod_notice));
+        mNoticeTypeModels.add(new NoticeTypeModel(R.string.Fest_notice));
+        mNoticeTypeModels.add(new NoticeTypeModel(R.string.Exam_notice));
         mNoticeTypeModels.add(new NoticeTypeModel(R.string.Project_notice));
+        mNoticeTypeModels.add(new NoticeTypeModel(R.string.Assignment_notice));
 
 
         mNoticeRecylcerView.setLayoutManager(new LinearLayoutManager(this));

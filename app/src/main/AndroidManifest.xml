@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".notice.NoticeDivision"></activity>
+        <activity android:name=".notice.NoticeDivision" />
+        <activity android:name=".notice.notice_activities.DepartmentActivity" />
+        <activity android:name=".notice.notice_activities.HODActivity" />
     </application>
 
 </manifest>
