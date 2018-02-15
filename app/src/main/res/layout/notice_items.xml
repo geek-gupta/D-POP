@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:layout_margin="16dp"
+    android:background="@color/colorAccent"
+    android:padding="16dp">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/notice_text"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:minWidth="20dp"
+        android:gravity="center"/>
+
+</LinearLayout>

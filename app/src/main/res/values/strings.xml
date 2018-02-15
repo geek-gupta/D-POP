@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">De-POP</string>
+    <string name="hod_notice">HOD Notice</string>
+    <string name="Department_Notice">Department Notice</string>
+    <string name="Fest_notice">Fest Notice</string>
+    <string name="Exam_notice">Exam Notice</string>
+    <string name="Project_notice">Project Notice</string>
+    <string name="Assignment_notice">Assignment Notice</string>
 </resources>
