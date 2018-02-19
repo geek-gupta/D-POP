@@ -6,4 +6,10 @@
     <string name="Exam_notice">Exam Notice</string>
     <string name="Project_notice">Project Notice</string>
     <string name="Assignment_notice">Assignment Notice</string>
+
+
+
+    <string name="minor">3rd Year Minor Project</string>
+    <string name="major">3rd Year major Project</string>
+    <string name="miscProject">Miscllaneous Project</string>
 </resources>

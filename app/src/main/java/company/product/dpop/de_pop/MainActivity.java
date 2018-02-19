@@ -6,9 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 
 import company.product.dpop.de_pop.notice.NoticeDivision;
+import company.product.dpop.de_pop.projects.ProjectMainActivity;
 
 public class MainActivity extends AppCompatActivity {
 
+    Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,7 +19,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void noticeShow(View view) {
-        Intent intent = new Intent(this, NoticeDivision.class);
+         intent = new Intent(this, NoticeDivision.class);
+        startActivity(intent);
+    }
+
+    public void projectShow(View view) {
+        intent = new Intent(this, ProjectMainActivity.class);
         startActivity(intent);
     }
 }
