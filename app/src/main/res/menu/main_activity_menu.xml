@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/search_item"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <item   android:id="@+id/queryMenuItem"
+            android:title="Query"/>
+
+    <item android:id="@+id/notesMenuItem"
+        android:title="Notes">
+    </item>
+
+    <item android:id="@+id/attendanceMenuItem"
+        android:title="Attendance"/>
+
+    <item android:id="@+id/todayNotice"
+        android:title="Today's Notice"></item>
+
+</menu>

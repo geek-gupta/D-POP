@@ -37,7 +37,7 @@ public class NoticeDataAdapter extends RecyclerView.Adapter<NoticeDataAdapter.Vi
     public void onBindViewHolder(ViewAdapter holder, int position) {
         holder.noticeSenderTextView.setText(noticeDataModels.get(position).getNoticeSender());
         holder.noticeSectionTextView.setText(noticeDataModels.get(position).getSectionName());
-        holder.noticeSectionTextView.setText(noticeDataModels.get(position).getNoticeData());
+        holder.noticeDataTextView.setText(noticeDataModels.get(position).getNoticeData());
     }
 
     @Override
@@ -51,7 +51,7 @@ public class NoticeDataAdapter extends RecyclerView.Adapter<NoticeDataAdapter.Vi
 
         public ViewAdapter(View itemView) {
             super(itemView);
-            noticeDataTextView = (TextView) itemView.findViewById(R.id.notice_sender_id);
+            noticeDataTextView = (TextView) itemView.findViewById(R.id.message_notice_id);
             noticeSectionTextView = (TextView) itemView.findViewById(R.id.notice_section_id);
             noticeSenderTextView = (TextView) itemView.findViewById(R.id.notice_sender_id);
         }

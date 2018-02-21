@@ -3,6 +3,7 @@ package company.product.dpop.de_pop.login;
 import android.content.Intent;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,11 +15,15 @@ import company.product.dpop.de_pop.R;
 public class LoginActivity extends AppCompatActivity {
 
     Button mSignnUpActivity,mLoginButton;
+    private ActionBar actionBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        actionBar = getSupportActionBar();
+        actionBar.hide();
 
         mSignnUpActivity = (Button) findViewById(R.id.signUpButton);
         mLoginButton = (Button) findViewById(R.id.loginButton);

@@ -4,16 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/abstract4"
-    tools:context="company.product.dpop.de_pop.MainActivity">
+    android:background="@color/accent_material_dark"
+    tools:context="company.product.dpop.de_pop.querybench.QueryBenchDivisionActivity">
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/main_viewPager"
+
+    <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:id="@+id/query_bench_recycler_view">
+
+    </android.support.v7.widget.RecyclerView>
 
 </LinearLayout>

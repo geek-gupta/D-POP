@@ -1,6 +1,7 @@
 package company.product.dpop.de_pop.login;
 
 import android.content.Intent;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -12,13 +13,17 @@ import company.product.dpop.de_pop.register.TeacherRegisterActivity;
 
 public class RegisterPickerActivity extends AppCompatActivity {
 
-    Button mTeacherRegister,mStudentRegister;
-    Intent intent;
+    private Button mTeacherRegister,mStudentRegister;
+    private Intent intent;
+    private ActionBar actionBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register_picker);
+
+        actionBar = getSupportActionBar();
+        actionBar.hide();
 
         mStudentRegister = (Button) findViewById(R.id.studentregister);
         mTeacherRegister = (Button) findViewById(R.id.teacherregister);

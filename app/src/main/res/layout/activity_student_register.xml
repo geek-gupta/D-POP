@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0277BD"
+    android:background="@drawable/abstract5"
     android:gravity="center"
     android:orientation="vertical"
     tools:context="company.product.dpop.de_pop.register.StudentRegisterActivity">

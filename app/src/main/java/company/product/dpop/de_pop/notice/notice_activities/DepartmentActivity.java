@@ -38,6 +38,13 @@ public class DepartmentActivity extends AppCompatActivity {
         mNoticeDataModel.add(new NoticeDataModel("B","You all are informed" +
                 " to gather in Seminar hall of IT Department and i Hope you all will be present there IT Department and i Hope you all will be present there  ","Lokesh Adhikari"));
 
+        mNoticeDataModel.add(new NoticeDataModel("B","You all are informed" +
+                " to gather in Seminar hall of IT Department and i Hope you all will be present there IT Department and i Hope you all will be present there  ","Lokesh Adhikari"));
+
+        mNoticeDataModel.add(new NoticeDataModel("A","You all are informed" +
+                " to gather in Seminar hall of IT Department and i Hope you all will be present there ","Gaurav Kumar"));
+        mNoticeDataModel.add(new NoticeDataModel("B","You all are informed" +
+                " to gather in Seminar hall of IT Department and i Hope you all will be present there IT Department and i Hope you all will be present there  ","Lokesh Adhikari"));
         mDepartmentRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         mDepartmentRecyclerView.setHasFixedSize(true);
         mDepartmentRecyclerView.setAdapter(new NoticeDataAdapter(this,mNoticeDataModel));

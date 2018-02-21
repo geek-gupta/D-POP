@@ -8,8 +8,14 @@
     <string name="Assignment_notice">Assignment Notice</string>
 
 
-
     <string name="minor">3rd Year Minor Project</string>
     <string name="major">3rd Year major Project</string>
     <string name="miscProject">Miscllaneous Project</string>
+
+    <string name="SubjectQuery">Subject Query</string>
+    <string name="SportFestQuery">Sports Fest</string>
+    <string name="CulturalFestQuery">Cultural Fest</string>
+    <string name="AcademicQuery">Academic Query</string>
+    <string name="TechnicalQuery">Technical Query</string>
+    <string name="ProjectQuery">Project Query</string>
 </resources>
